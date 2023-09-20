@@ -19,8 +19,11 @@ local function main()
     end
 end
 
+reaper.PreventUIRefresh(1)
 -- Start undo block
 reaper.Undo_BeginBlock()
 main()
 -- End undo block
 reaper.Undo_EndBlock("Remove file extensions from region names", -1)
+reaper.PreventUIRefresh(-1)
+reaper.UpdateArrange()
