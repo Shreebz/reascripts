@@ -1,11 +1,10 @@
--- @description Remove file extension from markers and regions
--- @version 1.0
--- @author Dave Schreiber
--- @about
---   # File extension remover
---   No comment
--- @changelog
---   Initial commit
+@description Remove file extension from markers and regions
+@version 1.0
+@author Dave Schreiber
+@about
+  # File extension remover
+@changelog
+  Initial commit
 
 local function removeFileExtension(str)
     return (str:gsub("%..+$", ""))
