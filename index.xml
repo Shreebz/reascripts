@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="shreebz scripts" commit="17c4fcd5cf96ffed3d704f5d2a4b80b66dbf7b25">
+<index version="1" name="shreebz scripts" commit="e9d0740982551e417a5e392fae1ece8fa4f1e3f5">
+  <category name="dev">
+    <reapack name="shreebz - lua utilities.lua" type="script" desc="shreebz Lua Utilities">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Lua Utilities\par}
+}
+]]></description>
+        <link rel="website">https://www.linkedin.com/in/david-schreiber-jr/</link>
+      </metadata>
+      <version name="1.0" author="Dave Schreiber - Shreebz" time="2024-02-06T01:38:26Z">
+        <changelog><![CDATA[# shreebz.getTrackLaneNames(track)]]></changelog>
+        <source main="main">https://github.com/Shreebz/reascripts/raw/e9d0740982551e417a5e392fae1ece8fa4f1e3f5/dev/shreebz%20-%20lua%20utilities.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Regions">
     <reapack name="shreebz - rename regions and markers - remove file extensions.lua" type="script" desc="Remove file extension from markers and regions">
       <metadata>
