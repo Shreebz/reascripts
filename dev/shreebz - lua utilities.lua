@@ -4,7 +4,7 @@
 -- @metapackage
 -- @provides
 --   [main] .
--- @link 
+-- @link https://www.linkedin.com/in/david-schreiber-jr/
 -- @about
 --   # Lua Utilities
 -- @changelog
