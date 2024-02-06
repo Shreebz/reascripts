@@ -1,6 +1,6 @@
 @description Remove file extension from markers and regions
 @version 1.0
-@author Dave Schreiber
+@author Dave Schreiber - Shreebz
 @about
   # File extension remover
 @changelog
