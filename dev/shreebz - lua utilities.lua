@@ -1,6 +1,6 @@
 -- @description shreebz Lua Utilities
 -- @author Dave Schreiber - Shreebz
--- @version 1.0
+-- @version 7.1
 -- @metapackage
 -- @provides
 --   [main] .
