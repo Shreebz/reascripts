@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="shreebz scripts" commit="a3aada61838b9489abe8d377429abcce423e787a">
+<index version="1" name="shreebz scripts" commit="1d9d920560a070988b3a5ebda74575520626496a">
   <category name="dev">
     <reapack name="shreebz - lua utilities.lua" type="script" desc="shreebz - lua utilities">
       <metadata>
@@ -19,6 +19,10 @@
       <version name="7.1" author="Dave Schreiber - Shreebz" time="2024-02-15T01:30:45Z">
         <changelog><![CDATA[# shreebz.getTrackLaneNames(track)]]></changelog>
         <source main="main">https://github.com/Shreebz/reascripts/raw/7c2961d63732b7ac0abeba69dba7fbd669c70198/dev/shreebz%20-%20lua%20utilities.lua</source>
+      </version>
+      <version name="7.2" author="Dave Schreiber - Shreebz" time="2024-02-15T02:04:19Z">
+        <changelog><![CDATA[# update version numbers]]></changelog>
+        <source main="main">https://github.com/Shreebz/reascripts/raw/1d9d920560a070988b3a5ebda74575520626496a/dev/shreebz%20-%20lua%20utilities.lua</source>
       </version>
     </reapack>
   </category>
