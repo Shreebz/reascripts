@@ -173,7 +173,7 @@ main()
 shreebz = {}
 
 function shreebz.version()
-  local file = io.open((reaper.GetResourcePath()..'/Scripts/shreebz scripts/dev/shreebz_Lua Utilities.lua'):gsub('\\','/'),"r")
+  local file = io.open((reaper.GetResourcePath()..'/Scripts/shreebz scripts/dev/shreebz - lua utilities.lua'):gsub('\\','/'),"r")
   local vers_header = "-- @version "
   io.input(file)
   local t = 0
