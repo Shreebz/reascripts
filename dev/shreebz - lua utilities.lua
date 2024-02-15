@@ -1,6 +1,6 @@
 -- @description shreebz - lua utilities
 -- @author Dave Schreiber - Shreebz
--- @version 7.1
+-- @version 7.2
 -- @metapackage
 -- @provides
 --   [main] .
