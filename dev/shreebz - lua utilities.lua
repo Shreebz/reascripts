@@ -8,7 +8,7 @@
 -- @about
 --   # Lua Utilities
 -- @changelog
---   # shreebz.getTrackLaneNames(track)
+--   # update version number
 
 --[[
 local shreebz_LuaUtils = reaper.GetResourcePath()..'/Scripts/shreebz scripts/dev/shreebz - lua utilities.lua'
