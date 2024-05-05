@@ -1,5 +1,7 @@
-# Reaper ReaScripts
+# Shreebz's ReaScripts
 Shreebz's ReaScript repository. Handy scripts for Reaper the digital audio workstation.
+
+I work in game audio. Most of my scripts here will revolve around that.
 
 https://www.reaper.fm/
 
@@ -12,6 +14,6 @@ https://www.reaper.fm/
 4. Use the link to import my repository with ReaPack. Copy and Paste to ReaPack.
 
 ## Repository Link
-```shell
+```sh
 https://raw.githubusercontent.com/Shreebz/reascripts/master/index.xml
 ```
