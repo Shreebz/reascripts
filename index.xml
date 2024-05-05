@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="shreebz scripts" commit="e5e1256a7cec8f7fc3d53426a561416f094c4c28">
+<index version="1" name="shreebz scripts" commit="9267f6167e58ca475ae383909bdb83b46dc075a0">
   <category name="Dev">
     <reapack name="Shreebz - Lua Dev Library.lua" type="script" desc="shreebz - lua utilities">
       <metadata>
@@ -34,7 +34,7 @@
         <source main="main">https://github.com/Shreebz/reascripts/raw/d2435a9aaae1e08c10471e248b7201e0ad522799/Rename/Shreebz%20-%20Rename%20Regions%20and%20Markers%20-%20Remove%20File%20Extensions.lua</source>
       </version>
     </reapack>
-    <reapack name="Shreebz - Rename Regions Markers and Item takes - Remove &quot;Imported&quot; and File Extensions.lua" type="script" desc="and &quot;imported-000&quot; type names.">
+    <reapack name="Shreebz - Rename Regions Markers and Item takes - Remove &quot;Imported&quot; and File Extensions.lua" type="script" desc="Rename regions, markers, and item takes. This removes file extensions and &quot;imported-000&quot; type names.">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
