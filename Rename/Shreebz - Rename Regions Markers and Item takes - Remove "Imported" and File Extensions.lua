@@ -1,8 +1,9 @@
--- @description Remove file extension from markers and regions
+-- @description Rename regions, markers, and item takes. This removes file extensions
+-- @description and "imported-000" type names.
 -- @version 1.0
 -- @author Dave Schreiber
 -- @about
---   # File extension remover
+--   # Renames a bunch of stuff in a session
 --   No comment
 -- @changelog
 --   Initial commit
@@ -10,9 +11,9 @@
 local function sanitizeName(str)
     if str then
         -- pattern = "(.-)-imported-%d+%.([^%.]+)$"
+        new_name = str
         pattern01 = "%-imported.*$"
         pattern02 = "%..*$"
-        new_name = str
         -- reaper.ShowConsoleMsg("original_name: "..original_name.."\n")
         new_name = (new_name:gsub(pattern01,""))
         new_name = (new_name:gsub(pattern02,""))
@@ -51,7 +52,7 @@ local function itemsRename()
 end
 
 local function main()
-    -- regionsRename()
+    regionsRename()
     itemsRename()
 end
 
