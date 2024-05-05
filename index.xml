@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="shreebz scripts" commit="1d9d920560a070988b3a5ebda74575520626496a">
+<index version="1" name="shreebz scripts" commit="d2435a9aaae1e08c10471e248b7201e0ad522799">
   <category name="dev">
     <reapack name="shreebz - lua utilities.lua" type="script" desc="shreebz - lua utilities">
       <metadata>
@@ -40,6 +40,39 @@
       <version name="1.0" author="Dave Schreiber" time="2023-09-20T21:01:46Z">
         <changelog><![CDATA[Initial commit]]></changelog>
         <source main="main">https://github.com/Shreebz/reascripts/raw/46deb33675c7bafb7149b60ff000f606fa285bd9/Regions/shreebz%20-%20rename%20regions%20and%20markers%20-%20remove%20file%20extensions.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Rename">
+    <reapack name="Shreebz - Rename Regions and Markers - Remove File Extensions.lua" type="script" desc="Remove file extension from markers and regions">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 File extension remover\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Dave Schreiber - Shreebz" time="2024-05-05T22:36:23Z">
+        <changelog><![CDATA[Initial commit]]></changelog>
+        <source main="main">https://github.com/Shreebz/reascripts/raw/d2435a9aaae1e08c10471e248b7201e0ad522799/Rename/Shreebz%20-%20Rename%20Regions%20and%20Markers%20-%20Remove%20File%20Extensions.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Shreebz - Rename Regions Markers and Item takes - Remove &quot;Imported&quot; and File Extensions.lua" type="script" desc="Remove file extension from markers and regions">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 File extension remover\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 No comment\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Dave Schreiber" time="2024-05-05T22:36:23Z">
+        <changelog><![CDATA[Initial commit]]></changelog>
+        <source main="main">https://github.com/Shreebz/reascripts/raw/d2435a9aaae1e08c10471e248b7201e0ad522799/Rename/Shreebz%20-%20Rename%20Regions%20Markers%20and%20Item%20takes%20-%20Remove%20%22Imported%22%20and%20File%20Extensions.lua</source>
       </version>
     </reapack>
   </category>
