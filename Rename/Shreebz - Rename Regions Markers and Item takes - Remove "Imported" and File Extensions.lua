@@ -1,5 +1,4 @@
--- @description Rename regions, markers, and item takes. This removes file extensions
--- @description and "imported-000" type names.
+-- @description Rename regions, markers, and item takes. This removes file extensions and "imported-000" type names.
 -- @version 1.0
 -- @author Dave Schreiber
 -- @about
