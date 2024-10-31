@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="shreebz scripts" commit="9267f6167e58ca475ae383909bdb83b46dc075a0">
+<index version="1" name="shreebz scripts" commit="25c46d850548791fecc9f89e6635ec54f3910080">
   <category name="Dev">
     <reapack name="Shreebz - Lua Dev Library.lua" type="script" desc="shreebz - lua utilities">
       <metadata>
@@ -15,6 +15,23 @@
       <version name="7.2" author="Dave Schreiber - Shreebz" time="2024-05-05T22:45:45Z">
         <changelog><![CDATA[# update version numbers]]></changelog>
         <source main="main">https://github.com/Shreebz/reascripts/raw/6f296deba3e9b5e7cae43991c1ac989b4515fbbe/Dev/Shreebz%20-%20Lua%20Dev%20Library.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Regions">
+    <reapack name="Shreebz - Adjust region start or end in time selection.lua" type="script" desc="Shreebz - Move region start or end in time selection">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Move region start or end\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Dave Schreiber - Shreebz" time="2024-10-31T19:30:22Z">
+        <changelog><![CDATA[Initial commit]]></changelog>
+        <source main="main">https://github.com/Shreebz/reascripts/raw/25c46d850548791fecc9f89e6635ec54f3910080/Regions/Shreebz%20-%20Adjust%20region%20start%20or%20end%20in%20time%20selection.lua</source>
       </version>
     </reapack>
   </category>
