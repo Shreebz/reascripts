@@ -1,4 +1,38 @@
+# OS
 .DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Local / scratch
 wip/
+tmp/
+temp/
+*.log
+*.tmp
+
+# Project-specific local work
 *bgs*
 *.dev.lua
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies / build (future-proof)
+node_modules/
+dist/
+build/
+coverage/
+.cache/
