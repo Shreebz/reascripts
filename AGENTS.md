@@ -37,7 +37,16 @@ Wrap project edits in `reaper.Undo_BeginBlock` and `reaper.Undo_EndBlock`. Aroun
 
 ## Publishing
 
-A script is absent from the ReaPack repository until `index.xml` lists it. Leave `index.xml` unchanged unless the task is to publish or version a script. Source URLs stay pinned to a commit.
+`index.xml` is generated. Do not edit it by hand.
+
+`reapack-index` 1.2.3 is on PATH. It reads committed script headers and writes the index. Bump `@version` and set `@changelog` before the script commit. A new version is picked up only from a commit newer than the `commit` attribute on `index.xml`.
+
+1. Commit the script.
+2. Run `reapack-index --check` to validate headers, including uncommitted files.
+3. Run `reapack-index --commit` to scan new commits, rewrite `index.xml`, and commit the index. The default message looks like `index: 1 new version`.
+4. Push. ReaPack users install from the raw `index.xml` URL in `README.md`.
+
+In REAPER, ReaPack is installed as `reaper_reapack-arm64.dylib`. After a push, install or update with Extensions > ReaPack > Synchronize packages.
 
 ## Scratch
 
