@@ -1,0 +1,13 @@
+---
+description: How to work in the Shreebz ReaScripts repository
+alwaysApply: true
+---
+
+# ReaScripts
+
+This repo is Lua for REAPER. People install the scripts with ReaPack. Read `AGENTS.md` before editing.
+
+- Put shared helpers on the `shreebz` table in `Dev/Shreebz - Lua Dev Library.lua`.
+- New actions go in a topic folder and start with `@description`, `@version`, `@author`, `@about`, and `@changelog`.
+- Wrap project changes in `reaper.Undo_BeginBlock` / `reaper.Undo_EndBlock`.
+- Edit `index.xml` only when publishing a version. Keep each source URL pinned to a commit.
